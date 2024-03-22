@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+h1{
+    color: white;
+}
+label{
+    display: block;
+    color: white;
+}
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+input[type="name" ],
+input[type="email"],
+input[type="password"],
+input[type="confirm password"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"]{
+    background-color: azure;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
